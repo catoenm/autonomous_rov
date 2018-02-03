@@ -1,0 +1,36 @@
+Mass properties of ME100-FullAssembly-R03
+     Configuration: Default
+     Coordinate system: -- default --
+
+* Includes the mass properties of one or more hidden components/bodies.
+
+Mass = 1035.87 grams
+
+Volume = 29.58 cubic inches
+
+Surface area = 479.31 square inches
+
+Center of mass: ( inches )
+	Y = 0.04
+	Z = 69.17
+	X = -0.02
+
+Principal axes of inertia and principal moments of inertia: ( grams * square inches )
+Taken at the center of mass.
+	 Iy = ( 0.00,  0.00,  1.00)   	Py = 16925.92
+	 Iz = ( 1.00,  0.00,  0.00)   	Pz = 18359.25
+	 Ix = ( 0.00,  1.00,  0.00)   	Px = 34239.53
+
+Moments of inertia: ( grams * square inches )
+Taken at the center of mass and aligned with the output coordinate system.
+	Lyy = 18359.24	Lyz = 1.67	Lyx = -2.61
+	Lzy = 1.67	Lzz = 34239.53	Lzx = 4.36
+	Lxy = -2.61	Lxz = 4.36	Lxx = 16925.93
+
+Moments of inertia: ( grams * square inches )
+Taken at the output coordinate system.
+	Iyy = 4973964.24Iyz = 2555.76	Iyx = -3.20
+	Izy = 2555.76	Izz = 34241.11	Izx = -1139.96
+	Ixy = -3.20	Ixz = -1139.96	Ixx = 4972531.98
+
+	

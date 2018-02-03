@@ -1,0 +1,51 @@
+void solenoid_on(){
+	
+}
+
+void solenoid_off(){
+	
+}
+
+void pitch_up (){
+	release solenoid
+	run front motors for x seconds
+
+	esc1.write(i);
+	esc2.write(i);
+}
+
+void pitch_down (){
+	solenoid_off();
+	run front motors for x.2y seconds
+
+	esc1.write(i);
+	esc2.write(i);
+}
+
+void left (){
+	activate solenoid
+	spin right motors forward
+	spin left motors backwards
+}
+
+void right (){
+	activate solenoid
+	spin left motors forward
+	spin right motors backwards
+}
+
+void forward (){
+	active solenoid
+	spin all motors forward
+}
+
+void backwards (){
+	activate solenoid
+	spin all motors backwards
+}
+
+void land(){
+	release solenoid
+	run back motors in forward direction low speed
+	run front motors in reverse direction
+}
